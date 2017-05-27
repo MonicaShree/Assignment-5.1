@@ -1,0 +1,9 @@
+Hadoop Comand for combiner
+
+
+hadoop jar /home/acadgild/assignment5/Task02.jar mapreduce.assignment5.task2.TotalUnitsSoldByEachCompanyWithCombiner /user/acadgild/hadoop/television.txt /user/acadgild/hadoop/TotalUnitsByEachCompanyCombiner1
+
+
+Hadoop comand for partitioner
+
+hadoop jar /home/acadgild/assignment5/Task01.jar mapreduce.assignment5.task1.TotalUnitsSoldByEachCompanyWithReducers /user/acadgild/hadoop/television.txt /user/acadgild/hadoop/TotalUnitsByEachCompanyPartitioner2
